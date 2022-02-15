@@ -5,17 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97322f60-ea33-4b09-9866-ae817aa250ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/turing/controller/CarEditViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/turing/controller/CarTableViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/turing/controller/CustomerEditViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/turing/controller/CustomerTableViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/turing/controller/EmployeeEditViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/turing/controller/EmployeeTableViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/turing/controller/GenericEditViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/turing/controller/GenericTableViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/turing/controller/RentalEditViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/turing/controller/RentalTableViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/CarEditView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/CarTableView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/CustomerEditView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/CustomerTableView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/EmployeeEditView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/EmployeeTableView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/RentalEditView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/RentalTableView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/turing/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/turing/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/turing/controller/CarEditViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/turing/controller/CarEditViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/turing/controller/CarTableViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/turing/controller/CarTableViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/turing/controller/CustomerEditViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/turing/controller/CustomerEditViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/turing/controller/CustomerTableViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/turing/controller/CustomerTableViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/turing/controller/EmployeeEditViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/turing/controller/EmployeeEditViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/turing/controller/EmployeeTableViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/turing/controller/EmployeeTableViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/turing/controller/GenericEditViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/turing/controller/GenericEditViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/turing/controller/GenericTableViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/turing/controller/GenericTableViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/turing/controller/RentalEditViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/turing/controller/RentalEditViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/turing/controller/RentalTableViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/turing/controller/RentalTableViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/turing/dao/GenericDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/turing/dao/GenericDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/turing/model/producer/CarProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/turing/model/producer/CarProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/turing/model/producer/CustomerProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/turing/model/producer/CustomerProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/turing/model/producer/EmployeeProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/turing/model/producer/EmployeeProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/turing/model/producer/RentalProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/turing/model/producer/RentalProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/turing/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/turing/service/CarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/turing/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/turing/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/turing/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/turing/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/turing/service/GenericService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/turing/service/GenericService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/turing/service/GenericServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/turing/service/GenericServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/turing/service/RentalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/turing/service/RentalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/turing/util/DialogUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/turing/util/DialogUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/turing/util/FilterUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/turing/util/FilterUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/turing/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/turing/secondary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/turing/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/turing/secondary.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +57,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="24k2Hip6oT8NWcQ4DUWBtiHbfSG" />
   <component name="ProjectLevelVcsManager">
@@ -38,20 +85,30 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/org/turing/controller" />
+      <recent name="$PROJECT_DIR$/src/main/resources/fxml" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/org/turing" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.turing.App" />
       <module name="Autovermietung-PRG3" />
@@ -66,9 +123,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.turing.App" />
+      <module name="Autovermietung-PRG3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.turing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.CarRentalApp" />
       </list>
     </recent_temporary>
   </component>
@@ -81,6 +152,7 @@
       <option name="presentableId" value="Default" />
       <updated>1644160181671</updated>
       <workItem from="1644160183781" duration="2899000" />
+      <workItem from="1644941679056" duration="2991000" />
     </task>
     <servers />
   </component>

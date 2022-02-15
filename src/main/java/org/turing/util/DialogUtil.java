@@ -1,6 +1,6 @@
 package org.turing.util;
 
-import de.htwsaar.prog3.carrental.util.i18n.I18nComponentsUtil;
+import org.turing.util.i18n.I18nComponentsUtil;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 

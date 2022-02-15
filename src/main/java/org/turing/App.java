@@ -1,14 +1,14 @@
 package org.turing;
 
-import de.htwsaar.prog3.carrental.controller.*;
-import de.htwsaar.prog3.carrental.model.Car;
-import de.htwsaar.prog3.carrental.model.Customer;
-import de.htwsaar.prog3.carrental.model.Employee;
-import de.htwsaar.prog3.carrental.model.Rental;
-import de.htwsaar.prog3.carrental.util.EntityManagerUtil;
-import de.htwsaar.prog3.carrental.util.i18n.I18nComponentsUtil;
-import de.htwsaar.prog3.carrental.util.i18n.I18nStringsUtil;
-import de.htwsaar.prog3.carrental.util.i18n.I18nUtil;
+import org.turing.controller.*;
+import org.turing.model.Car;
+import org.turing.model.Customer;
+import org.turing.model.Employee;
+import org.turing.model.Rental;
+import org.turing.util.EntityManagerUtil;
+import org.turing.util.i18n.I18nComponentsUtil;
+import org.turing.util.i18n.I18nStringsUtil;
+import org.turing.util.i18n.I18nUtil;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;

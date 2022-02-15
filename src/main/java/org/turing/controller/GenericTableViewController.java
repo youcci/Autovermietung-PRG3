@@ -1,10 +1,10 @@
 package org.turing.controller;
 
-import de.htwsaar.prog3.carrental.CarRentalApp;
-import de.htwsaar.prog3.carrental.model.BaseEntity;
-import de.htwsaar.prog3.carrental.service.GenericService;
-import de.htwsaar.prog3.carrental.util.DialogUtil;
-import de.htwsaar.prog3.carrental.util.i18n.I18nComponentsUtil;
+import org.turing.App;
+import org.turing.model.BaseEntity;
+import org.turing.service.GenericService;
+import org.turing.util.DialogUtil;
+import org.turing.util.i18n.I18nComponentsUtil;
 import javafx.application.Platform;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -16,18 +16,19 @@ import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
 import lombok.Setter;
+import org.turing.model.*;
 
 /**
  * Super Controller for all other TableView controllers.
  *
- * @author Youcef Wippert, Ahmad Anwar
+ * @author Lukas Raubuch, Arthur Kelsch
  */
 public abstract class GenericTableViewController<T extends BaseEntity> {
     GenericService<T> service;
     ObservableList<T> entities;
 
     @Setter
-    CarRentalApp app;
+    App app;
 
     @FXML
     public ComboBox<String> searchComboBoxField;
@@ -50,28 +51,28 @@ public abstract class GenericTableViewController<T extends BaseEntity> {
     }
 
     /**
-     * Switch the primary stage scene for {@link de.htwsaar.prog3.carrental.model.Car Car}.
+     * Switch the primary stage scene for {@link Car Car}.
      */
     public void handleCarMenuItemClicked() {
         app.showCarTableView();
     }
 
     /**
-     * Switch the primary stage scene for {@link de.htwsaar.prog3.carrental.model.Customer Customer}.
+     * Switch the primary stage scene for {@link Customer Customer}.
      */
     public void handleCustomerMenuItemClicked() {
         app.showCustomerTableView();
     }
 
     /**
-     * Switch the primary stage scene for {@link de.htwsaar.prog3.carrental.model.Employee Employee}.
+     * Switch the primary stage scene for {@link Employee Employee}.
      */
     public void handleEmployeeMenuItemClicked() {
         app.showEmployeeTableView();
     }
 
     /**
-     * Switch the primary stage scene for {@link de.htwsaar.prog3.carrental.model.Rental Rental}.
+     * Switch the primary stage scene for {@link Rental Rental}.
      */
     public void handleRentalMenuItemClicked() {
         app.showRentalTableView();
@@ -80,7 +81,7 @@ public abstract class GenericTableViewController<T extends BaseEntity> {
     /**
      * Closes the application.
      *
-     * @see CarRentalApp#stop()
+     * @see App#stop()
      */
     public void handleCloseMenuItemClicked() {
         Platform.exit();

@@ -1,9 +1,9 @@
 package org.turing.controller;
 
-import de.htwsaar.prog3.carrental.model.Employee;
-import de.htwsaar.prog3.carrental.service.EmployeeService;
-import de.htwsaar.prog3.carrental.util.DialogUtil;
-import de.htwsaar.prog3.carrental.util.i18n.I18nComponentsUtil;
+import org.turing.model.Employee;
+import org.turing.service.EmployeeService;
+import org.turing.util.DialogUtil;
+import org.turing.util.i18n.I18nComponentsUtil;
 import javafx.collections.FXCollections;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -21,7 +21,7 @@ import java.util.ResourceBundle;
 /**
  * Controller for EmployeeTableView.
  *
- * @author Youcef Wippert, Ahmad Anwar
+ * @author Lukas Raubuch, Jens Thewes
  */
 public class EmployeeTableViewController extends GenericTableViewController<Employee> implements Initializable {
     @FXML

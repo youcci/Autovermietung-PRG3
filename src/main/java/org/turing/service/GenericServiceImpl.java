@@ -1,8 +1,8 @@
 package org.turing.service;
 
-import de.htwsaar.prog3.carrental.dao.GenericDao;
-import de.htwsaar.prog3.carrental.model.BaseEntity;
-import de.htwsaar.prog3.carrental.util.FilterUtil;
+import org.turing.dao.GenericDao;
+import org.turing.model.BaseEntity;
+import org.turing.util.FilterUtil;
 
 import java.util.List;
 

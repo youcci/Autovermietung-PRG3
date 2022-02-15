@@ -1,9 +1,9 @@
 package org.turing.controller;
 
-import de.htwsaar.prog3.carrental.model.Car;
-import de.htwsaar.prog3.carrental.service.CarService;
-import de.htwsaar.prog3.carrental.util.DialogUtil;
-import de.htwsaar.prog3.carrental.util.i18n.I18nComponentsUtil;
+import org.turing.model.Car;
+import org.turing.service.CarService;
+import org.turing.util.DialogUtil;
+import org.turing.util.i18n.I18nComponentsUtil;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ChoiceBox;
@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 /**
  * This is the Controller for the "Edit Car View" of the Carrental Application.
  *
- * @author Youcef Wippert, Ahmad Anwar
+ * @author Jens Thewes
  */
 public class CarEditViewController extends GenericEditViewController<Car> {
     @FXML

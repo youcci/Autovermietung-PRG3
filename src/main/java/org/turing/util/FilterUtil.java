@@ -1,10 +1,11 @@
 package org.turing.util;
 
-import de.htwsaar.prog3.carrental.util.i18n.I18nComponentsUtil;
+import org.turing.service.GenericService;
+import org.turing.util.i18n.I18nComponentsUtil;
 
 /**
  * This class is used to convert variables for
- * {@link de.htwsaar.prog3.carrental.service.GenericService#filter(String, String, String)}.
+ * {@link GenericService#filter(String, String, String)}.
  *
  * @author Julian Quint
  */

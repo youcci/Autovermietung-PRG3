@@ -1,6 +1,6 @@
 package org.turing.service;
 
-import de.htwsaar.prog3.carrental.dao.GenericDao;
+import org.turing.dao.GenericDao;
 
 import java.util.List;
 

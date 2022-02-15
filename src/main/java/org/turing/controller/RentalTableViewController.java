@@ -1,9 +1,9 @@
 package org.turing.controller;
 
-import de.htwsaar.prog3.carrental.model.Rental;
-import de.htwsaar.prog3.carrental.service.RentalService;
-import de.htwsaar.prog3.carrental.util.DialogUtil;
-import de.htwsaar.prog3.carrental.util.i18n.I18nComponentsUtil;
+import org.turing.model.Rental;
+import org.turing.service.RentalService;
+import org.turing.util.DialogUtil;
+import org.turing.util.i18n.I18nComponentsUtil;
 import javafx.collections.FXCollections;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -20,7 +20,7 @@ import java.util.ResourceBundle;
 /**
  * Controller for RentalTableView.
  *
- * @author Youcef Wippert, Ahmad Anwar
+ * @author Lukas Raubuch
  */
 public class RentalTableViewController extends GenericTableViewController<Rental> implements Initializable {
     @FXML

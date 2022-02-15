@@ -1,9 +1,9 @@
 package org.turing.controller;
 
-import de.htwsaar.prog3.carrental.model.Customer;
-import de.htwsaar.prog3.carrental.service.CustomerService;
-import de.htwsaar.prog3.carrental.util.DialogUtil;
-import de.htwsaar.prog3.carrental.util.i18n.I18nComponentsUtil;
+import org.turing.model.Customer;
+import org.turing.service.CustomerService;
+import org.turing.util.DialogUtil;
+import org.turing.util.i18n.I18nComponentsUtil;
 import javafx.collections.FXCollections;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -21,7 +21,7 @@ import java.util.ResourceBundle;
 /**
  * Controller for CustomerTableView.
  *
- * @author Youcef Wippert, Ahmad Anwar
+ * @author Lukas Raubuch, Jens Thewes
  */
 public class CustomerTableViewController extends GenericTableViewController<Customer> implements Initializable {
     @FXML

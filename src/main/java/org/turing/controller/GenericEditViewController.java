@@ -1,9 +1,9 @@
 package org.turing.controller;
 
-import de.htwsaar.prog3.carrental.model.BaseEntity;
-import de.htwsaar.prog3.carrental.service.GenericService;
-import de.htwsaar.prog3.carrental.util.DialogUtil;
-import de.htwsaar.prog3.carrental.util.i18n.I18nComponentsUtil;
+import org.turing.model.BaseEntity;
+import org.turing.service.GenericService;
+import org.turing.util.DialogUtil;
+import org.turing.util.i18n.I18nComponentsUtil;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;
 import javafx.scene.input.KeyCode;
@@ -17,7 +17,7 @@ import java.util.Optional;
 /**
  * Super Controller for all other EditView controllers.
  *
- * @author Youcef Wippert, Ahmad Anwar
+ * @author Jens Thewes, Arthur Kelsch
  */
 public abstract class GenericEditViewController<T extends BaseEntity> {
     GenericService<T> service;

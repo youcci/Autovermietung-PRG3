@@ -1,6 +1,6 @@
 package org.turing.dao;
 
-import de.htwsaar.prog3.carrental.util.EntityManagerUtil;
+import org.turing.util.EntityManagerUtil;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

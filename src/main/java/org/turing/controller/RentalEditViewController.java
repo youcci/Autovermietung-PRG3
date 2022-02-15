@@ -1,14 +1,14 @@
 package org.turing.controller;
 
-import de.htwsaar.prog3.carrental.model.Car;
-import de.htwsaar.prog3.carrental.model.Customer;
-import de.htwsaar.prog3.carrental.model.Employee;
-import de.htwsaar.prog3.carrental.model.Rental;
-import de.htwsaar.prog3.carrental.service.CustomerService;
-import de.htwsaar.prog3.carrental.service.EmployeeService;
-import de.htwsaar.prog3.carrental.service.RentalService;
-import de.htwsaar.prog3.carrental.util.DialogUtil;
-import de.htwsaar.prog3.carrental.util.i18n.I18nComponentsUtil;
+import org.turing.model.Car;
+import org.turing.model.Customer;
+import org.turing.model.Employee;
+import org.turing.model.Rental;
+import org.turing.service.CustomerService;
+import org.turing.service.EmployeeService;
+import org.turing.service.RentalService;
+import org.turing.util.DialogUtil;
+import org.turing.util.i18n.I18nComponentsUtil;
 import javafx.collections.FXCollections;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
@@ -25,7 +25,7 @@ import java.util.List;
 /**
  * This is the Controller for the "Rental Edit View" of the Carrental Application.
  *
- * @author Youcef Wippert, Ahmad Anwar
+ * @author Hagen Schackmann, Michael Bös
  */
 public class RentalEditViewController extends GenericEditViewController<Rental> {
     private CustomerService customerService;

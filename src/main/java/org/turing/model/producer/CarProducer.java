@@ -1,8 +1,8 @@
 package org.turing.model.producer;
 
-import de.htwsaar.prog3.carrental.model.Car;
-import de.htwsaar.prog3.carrental.service.CarService;
-import de.htwsaar.prog3.carrental.util.EntityManagerUtil;
+import org.turing.model.Car;
+import org.turing.service.CarService;
+import org.turing.util.EntityManagerUtil;
 
 import java.util.ArrayList;
 import java.util.List;

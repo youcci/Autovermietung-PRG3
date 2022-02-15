@@ -1,7 +1,7 @@
 package org.turing.service;
 
-import de.htwsaar.prog3.carrental.dao.GenericDaoImpl;
-import de.htwsaar.prog3.carrental.model.Rental;
+import org.turing.dao.GenericDaoImpl;
+import org.turing.model.Rental;
 
 /**
  * Service layer implementation for the {@link Rental} model.

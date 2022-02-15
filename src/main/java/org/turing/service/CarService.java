@@ -1,7 +1,7 @@
 package org.turing.service;
 
-import de.htwsaar.prog3.carrental.dao.GenericDaoImpl;
-import de.htwsaar.prog3.carrental.model.Car;
+import org.turing.dao.GenericDaoImpl;
+import org.turing.model.Car;
 
 /**
  * Service layer implementation for the {@link Car} model.

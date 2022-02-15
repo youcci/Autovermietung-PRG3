@@ -1,9 +1,9 @@
 package org.turing.controller;
 
-import de.htwsaar.prog3.carrental.model.Employee;
-import de.htwsaar.prog3.carrental.service.EmployeeService;
-import de.htwsaar.prog3.carrental.util.DialogUtil;
-import de.htwsaar.prog3.carrental.util.i18n.I18nComponentsUtil;
+import org.turing.model.Employee;
+import org.turing.service.EmployeeService;
+import org.turing.util.DialogUtil;
+import org.turing.util.i18n.I18nComponentsUtil;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.TextField;
@@ -11,7 +11,7 @@ import javafx.scene.control.TextField;
 /**
  * This is the Controller for the "Edit Employee View" of the Carrental Application.
  *
- * @author Youcef Wippert, Ahmad Anwar
+ * @author Jens Thewes
  */
 public class EmployeeEditViewController extends GenericEditViewController<Employee> {
     @FXML

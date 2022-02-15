@@ -1,7 +1,7 @@
 package org.turing.service;
 
-import de.htwsaar.prog3.carrental.dao.GenericDaoImpl;
-import de.htwsaar.prog3.carrental.model.Employee;
+import org.turing.dao.GenericDaoImpl;
+import org.turing.model.Employee;
 
 /**
  * Service layer implementation for the {@link Employee} model.

@@ -1,8 +1,8 @@
 package org.turing.model.producer;
 
-import de.htwsaar.prog3.carrental.model.Employee;
-import de.htwsaar.prog3.carrental.service.EmployeeService;
-import de.htwsaar.prog3.carrental.util.EntityManagerUtil;
+import org.turing.model.Employee;
+import org.turing.service.EmployeeService;
+import org.turing.util.EntityManagerUtil;
 
 import java.util.ArrayList;
 import java.util.List;

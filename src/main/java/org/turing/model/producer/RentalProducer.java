@@ -1,11 +1,11 @@
 package org.turing.model.producer;
 
-import de.htwsaar.prog3.carrental.model.Rental;
-import de.htwsaar.prog3.carrental.service.CarService;
-import de.htwsaar.prog3.carrental.service.CustomerService;
-import de.htwsaar.prog3.carrental.service.EmployeeService;
-import de.htwsaar.prog3.carrental.service.RentalService;
-import de.htwsaar.prog3.carrental.util.EntityManagerUtil;
+import org.turing.model.Rental;
+import org.turing.service.CarService;
+import org.turing.service.CustomerService;
+import org.turing.service.EmployeeService;
+import org.turing.service.RentalService;
+import org.turing.util.EntityManagerUtil;
 
 import java.util.ArrayList;
 import java.util.List;
