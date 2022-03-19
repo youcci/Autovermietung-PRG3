@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * Produces some test data for the {@link Employee} model.
  *
- * @author Julian Quint
+ * @author Ahmad Anwar
  */
 public class EmployeeProducer {
     private static EmployeeService employeeService = new EmployeeService();
@@ -23,13 +23,13 @@ public class EmployeeProducer {
     private static void produce() {
         List<Employee> list = new ArrayList<>();
 
-        list.add(new Employee("Elon", "Musk", "CEO"));
-        list.add(new Employee("Bill", "Gates", "Customer Advisor"));
-        list.add(new Employee("Jordan", "Belfort", "Customer Advisor"));
-        list.add(new Employee("Peter", "Parker", "Customer Advisor"));
-        list.add(new Employee("Linus", "Torvalds", "Customer Advisor"));
-        list.add(new Employee("Neil", "Armstrong", "Customer Advisor"));
-        list.add(new Employee("Leonardo", "Da Vinci", "Customer Advisor"));
+        list.add(new Employee("Son", "Goku", "CEO"));
+        list.add(new Employee("Gill", "Bates", "Customer Advisor"));
+        list.add(new Employee("Linus", "Sebastian", "Customer Advisor"));
+        list.add(new Employee("Marcus", "Brownlee", "Customer Advisor"));
+        list.add(new Employee("Patrick", "Star", "Customer Advisor"));
+        list.add(new Employee("Tony", "Stark", "Customer Advisor"));
+        list.add(new Employee("Don", "Juan", "Customer Advisor"));
 
         for (Employee employee : list) {
             employeeService.persist(employee);

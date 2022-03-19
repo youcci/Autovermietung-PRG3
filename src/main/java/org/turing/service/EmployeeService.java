@@ -6,7 +6,7 @@ import org.turing.model.Employee;
 /**
  * Service layer implementation for the {@link Employee} model.
  *
- * @author Julian Quint, Arthur Kelsch
+ * @author Jan, Valerij
  * @see GenericServiceImpl
  */
 public class EmployeeService extends GenericServiceImpl<Employee> {

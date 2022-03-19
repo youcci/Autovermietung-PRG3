@@ -17,7 +17,7 @@ import java.util.Optional;
 /**
  * Super Controller for all other EditView controllers.
  *
- * @author Jens Thewes, Arthur Kelsch
+ * @author Youcef Wippert
  */
 public abstract class GenericEditViewController<T extends BaseEntity> {
     GenericService<T> service;

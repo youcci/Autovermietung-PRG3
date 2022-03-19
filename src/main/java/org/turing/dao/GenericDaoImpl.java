@@ -10,7 +10,7 @@ import java.util.List;
  * {@link GenericDao} implementation.
  *
  * @param <T> the type of the entity
- * @author Arthur Kelsch, Julian Quint
+ * @author Mufadhal, Ruand
  */
 public class GenericDaoImpl<T> implements GenericDao<T> {
     private final Class<T> entityClass;

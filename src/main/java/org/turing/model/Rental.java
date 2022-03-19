@@ -7,7 +7,7 @@ import javax.persistence.*;
 /**
  * Rental object model (JPA entity).
  *
- * @author Julian Quint
+ * @author Desiree, Mary
  */
 @Entity
 @Table

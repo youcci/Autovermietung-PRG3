@@ -9,7 +9,7 @@ import javax.persistence.Table;
 /**
  * Employee object model (JPA entity).
  *
- * @author Julian Quint
+ * @author Mary
  */
 @Entity
 @Table

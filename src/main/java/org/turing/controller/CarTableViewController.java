@@ -23,7 +23,7 @@ import java.util.ResourceBundle;
 /**
  * This is the Controller for the Main View of the Carrental Application.
  *
- * @author Lukas Raubuch
+ * @author Youcef Wippert
  */
 public class CarTableViewController extends GenericTableViewController<Car> implements Initializable {
     private RentalService rentalService;

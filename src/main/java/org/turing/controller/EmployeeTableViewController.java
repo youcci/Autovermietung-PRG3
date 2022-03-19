@@ -21,7 +21,7 @@ import java.util.ResourceBundle;
 /**
  * Controller for EmployeeTableView.
  *
- * @author Lukas Raubuch, Jens Thewes
+ * @author Ahmad Anwar
  */
 public class EmployeeTableViewController extends GenericTableViewController<Employee> implements Initializable {
     @FXML
@@ -93,7 +93,6 @@ public class EmployeeTableViewController extends GenericTableViewController<Empl
                 service.delete(employee);
                 entities.setAll(service.findAll());
             } catch (RollbackException e) {
-                // TODO i18n
                 Alert alert = DialogUtil.createErrorDialog("Invalid Action", "Can't delete this employee",
                         "You must first delete the rental");
                 alert.showAndWait();

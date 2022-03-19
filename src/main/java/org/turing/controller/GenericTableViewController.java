@@ -21,7 +21,7 @@ import org.turing.model.*;
 /**
  * Super Controller for all other TableView controllers.
  *
- * @author Lukas Raubuch, Arthur Kelsch
+ * @author Youcef Wippert
  */
 public abstract class GenericTableViewController<T extends BaseEntity> {
     GenericService<T> service;

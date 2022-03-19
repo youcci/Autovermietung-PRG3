@@ -8,7 +8,7 @@ import java.util.List;
  * Defines basic CRUD methods as well as methods for handling entity managers and transactions.
  *
  * @param <T> the type of the entity
- * @author Arthur Kelsch
+ * @author Mufadhal, Ruand
  */
 public interface GenericDao<T> {
     /**

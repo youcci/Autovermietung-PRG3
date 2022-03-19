@@ -11,7 +11,7 @@ import javafx.scene.control.TextField;
 /**
  * This is the Controller for the "Edit Employee View" of the Carrental Application.
  *
- * @author Jens Thewes
+ * @author Ahmad Anwar
  */
 public class EmployeeEditViewController extends GenericEditViewController<Employee> {
     @FXML

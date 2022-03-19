@@ -6,7 +6,7 @@ import org.turing.model.Car;
 /**
  * Service layer implementation for the {@link Car} model.
  *
- * @author Arthur Kelsch
+ * @author Jan
  * @see GenericServiceImpl
  */
 public class CarService extends GenericServiceImpl<Car> {

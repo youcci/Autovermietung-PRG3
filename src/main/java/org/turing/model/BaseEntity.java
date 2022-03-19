@@ -12,7 +12,7 @@ import javax.persistence.MappedSuperclass;
 /**
  * Base entity containing a primary key.
  *
- * @author Arthur Kelsch
+ * @author Ali Bahloul
  */
 @MappedSuperclass
 @Getter

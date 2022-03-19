@@ -21,7 +21,7 @@ import java.util.ResourceBundle;
 /**
  * Controller for CustomerTableView.
  *
- * @author Lukas Raubuch, Jens Thewes
+ * @author Youcef Wippert, Ahmad Anwar
  */
 public class CustomerTableViewController extends GenericTableViewController<Customer> implements Initializable {
     @FXML
@@ -117,7 +117,6 @@ public class CustomerTableViewController extends GenericTableViewController<Cust
                 service.delete(customer);
                 entities.setAll(service.findAll());
             } catch (RollbackException e) {
-                // TODO i18n
                 Alert error = DialogUtil.createErrorDialog("Invalid Action", "Can't delete this customer",
                         "You must first delete the rental");
                 error.showAndWait();

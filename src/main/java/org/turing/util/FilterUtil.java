@@ -7,7 +7,7 @@ import org.turing.util.i18n.I18nComponentsUtil;
  * This class is used to convert variables for
  * {@link GenericService#filter(String, String, String)}.
  *
- * @author Julian Quint
+ * @author Mohammad
  */
 public final class FilterUtil {
     private static final String CAR_ID = I18nComponentsUtil.getCarIdLabel();

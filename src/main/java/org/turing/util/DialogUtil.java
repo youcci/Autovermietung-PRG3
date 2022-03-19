@@ -7,7 +7,7 @@ import javafx.scene.control.Alert.AlertType;
 /**
  * This class is used to create standard dialogs via static access methods.
  *
- * @author Lukas Raubuch, Julian Quint
+ * @author Mohammad
  */
 public final class DialogUtil {
     private DialogUtil() {

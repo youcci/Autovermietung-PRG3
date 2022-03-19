@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 /**
  * This is the Controller for the "Edit Customer View" of the Carrental Application.
  *
- * @author Jens Thewes
+ * @author Ahmad Anwar
  */
 public class CustomerEditViewController extends GenericEditViewController<Customer> {
     @FXML

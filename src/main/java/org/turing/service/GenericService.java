@@ -10,7 +10,7 @@ import java.util.List;
  * Besides using methods from the DAO layer, the Service layer also manages entity managers and transactions.
  *
  * @param <T> the type of the entity
- * @author Arthur Kelsch, Julian Quint
+ * @author Mufadhal, Ruand
  * @see GenericDao
  */
 public interface GenericService<T> {

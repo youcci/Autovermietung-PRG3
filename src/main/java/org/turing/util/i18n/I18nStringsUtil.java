@@ -7,7 +7,7 @@ import java.util.ResourceBundle;
  * <p>
  * Provides strings that are NOT visible to the end user.
  *
- * @author Lukas Raubuch, Jens Thewes
+ * @author Youcef Wippert, Ahmad Anwar, Mufadhal, Ruand
  */
 public final class I18nStringsUtil {
     // Keys

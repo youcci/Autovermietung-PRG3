@@ -26,7 +26,7 @@ import java.util.Locale;
  * Entry point of the car rental application. Definition of primary stage and
  * building of the environment.
  *
- * @author Lukas Raubuch, Arthur Kelsch, Jens Thewes
+ * @author Youcef Wippert, Ahmad Anwar, Jan
  */
 public class App extends Application {
     private static final Logger logger = LoggerFactory.getLogger(App.class);

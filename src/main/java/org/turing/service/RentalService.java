@@ -6,7 +6,7 @@ import org.turing.model.Rental;
 /**
  * Service layer implementation for the {@link Rental} model.
  *
- * @author Julian Quint, Arthur Kelsch
+ * @author Mufadhal, Ruand
  * @see GenericServiceImpl
  */
 public class RentalService extends GenericServiceImpl<Rental> {

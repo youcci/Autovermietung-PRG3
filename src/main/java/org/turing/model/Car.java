@@ -9,7 +9,7 @@ import javax.persistence.Table;
 /**
  * Car object model (JPA entity).
  *
- * @author Arthur Kelsch
+ * @author Ali Bahloul
  */
 @Entity
 @Table

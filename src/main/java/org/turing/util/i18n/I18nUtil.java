@@ -7,7 +7,7 @@ import java.util.ResourceBundle;
 /**
  * Internationalization utility class providing different resource bundles.
  *
- * @author Lukas Raubuch
+ * @author Youcef Wippert
  */
 public final class I18nUtil {
     // Bundle base names

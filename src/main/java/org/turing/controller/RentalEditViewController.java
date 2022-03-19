@@ -25,7 +25,7 @@ import java.util.List;
 /**
  * This is the Controller for the "Rental Edit View" of the Carrental Application.
  *
- * @author Hagen Schackmann, Michael Bös
+ * @author Youcef Wippert, Ahmad Anwar
  */
 public class RentalEditViewController extends GenericEditViewController<Rental> {
     private CustomerService customerService;

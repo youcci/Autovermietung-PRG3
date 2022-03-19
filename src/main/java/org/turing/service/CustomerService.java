@@ -6,7 +6,7 @@ import org.turing.model.Customer;
 /**
  * Service layer implementation for the {@link Customer} model.
  *
- * @author Julian Quint, Arthur Kelsch
+ * @author Jan, Valerij
  * @see GenericServiceImpl
  */
 public class CustomerService extends GenericServiceImpl<Customer> {

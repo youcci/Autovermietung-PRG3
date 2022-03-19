@@ -13,7 +13,7 @@ import java.util.List;
  * The only difference between the services is their DAO implementation.
  *
  * @param <T> the type of the entity
- * @author Arthur Kelsch, Julian Quint
+ * @author Mufadhal, Ruand
  */
 public class GenericServiceImpl<T extends BaseEntity> implements GenericService<T> {
     GenericDao<T> dao;

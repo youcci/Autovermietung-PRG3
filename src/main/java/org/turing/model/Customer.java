@@ -9,7 +9,7 @@ import javax.persistence.Table;
 /**
  * Customer object model (JPA entity).
  *
- * @author Julian Quint
+ * @author Desiree
  */
 @Entity
 @Table

@@ -7,7 +7,7 @@ import javax.persistence.Persistence;
  * This class makes sure that we only use a single EntityManagerFactory
  * instance as these are heavyweight objects.
  *
- * @author Arthur Kelsch
+ * @author Mohammad
  */
 public final class EntityManagerUtil {
     private static final String PERSISTENCE_UNIT_NAME = "car-rental";

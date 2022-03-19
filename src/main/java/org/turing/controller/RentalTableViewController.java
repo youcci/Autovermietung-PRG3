@@ -20,7 +20,7 @@ import java.util.ResourceBundle;
 /**
  * Controller for RentalTableView.
  *
- * @author Lukas Raubuch
+ * @author Youcef Wippert, Ahmad Anwar
  */
 public class RentalTableViewController extends GenericTableViewController<Rental> implements Initializable {
     @FXML
