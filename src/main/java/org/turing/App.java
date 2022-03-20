@@ -36,7 +36,7 @@ public class App extends Application {
 
     public static void main(String[] args) {
         // Use English locale by default
-        Locale.setDefault(new Locale("en"));
+        Locale.setDefault(new Locale("de"));
 
         launch(args);
     }
