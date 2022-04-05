@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<BorderPane onKeyPressed="#handleKeyEvent"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.turing.controller.EmployeeEditViewController">
+    <top>
+        <BorderPane BorderPane.alignment="CENTER">
+            <left>
+                <GridPane alignment="center" hgap="10" vgap="10">
+                    <Label text="%employee-edit-title-label" style="-fx-font-weight: bold" GridPane.columnIndex="0" GridPane.rowIndex="0">
+                        <font>
+                            <Font size="14.0"/>
+                        </font>
+                    </Label>
+                </GridPane>
+            </left>
+            <BorderPane.margin>
+                <Insets bottom="20"/>
+            </BorderPane.margin>
+        </BorderPane>
+    </top>
+    <center>
+        <GridPane alignment="center" hgap="10" vgap="10">
+            <Label text="%employee-first-name-label" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+            <TextField fx:id="firstNameTextField" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+            <Label text="%employee-last-name-label" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+            <TextField fx:id="lastNameTextField" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+            <Label text="%employee-position-label" GridPane.columnIndex="2" GridPane.rowIndex="0"/>
+            <TextField fx:id="positionTextField" GridPane.columnIndex="2" GridPane.rowIndex="1"/>
+        </GridPane>
+    </center>
+    <bottom>
+        <BorderPane BorderPane.alignment="CENTER">
+            <right>
+                <GridPane alignment="center" hgap="10" vgap="10">
+                    <Button mnemonicParsing="false" onAction="#handleCancelButtonClicked" text="%button-cancel-label"
+                            textAlignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+                    <Button mnemonicParsing="false" onAction="#handleApplyButtonClicked" text="%button-apply-label"
+                            textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+                </GridPane>
+            </right>
+            <BorderPane.margin>
+                <Insets top="20"/>
+            </BorderPane.margin>
+        </BorderPane>
+    </bottom>
+    <padding>
+        <Insets top="25" right="25" bottom="25" left="25"/>
+    </padding>
+</BorderPane>
