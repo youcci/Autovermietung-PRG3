@@ -4,7 +4,7 @@ import org.turing.dao.GenericDaoImpl;
 import org.turing.model.Car;
 
 /**
- * Service layer implementation for the {@link Car} model.
+ * Implementierung des Services für das {@link Car} Modell.
  *
  * @author Jan
  * @see GenericServiceImpl

@@ -9,7 +9,7 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.TextField;
 
 /**
- * This is the Controller for the "Edit Employee View" of the Carrental Application.
+ * Controller um die Mitarbeiter zu bearbeiten
  *
  * @author Ahmad Anwar
  */

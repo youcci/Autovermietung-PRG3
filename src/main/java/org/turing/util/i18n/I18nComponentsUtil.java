@@ -3,9 +3,9 @@ package org.turing.util.i18n;
 import java.util.ResourceBundle;
 
 /**
- * Internationalization utility class for {@code components.properties}.
+ * Internationalisierung Utility-Klasse für {@code components.properties}.
  * <p>
- * Provides strings that are visible to the end user.
+ * Liefert Zeichenketten, die für den Endbenutzer sichtbar sind.
  *
  * @author Youcef Wippert, Ahmad Anwar, Mufadhal, Ruand
  */

@@ -4,7 +4,7 @@ import org.turing.dao.GenericDaoImpl;
 import org.turing.model.Employee;
 
 /**
- * Service layer implementation for the {@link Employee} model.
+ * Implementierung des Services für das {@link Employee} Modell.
  *
  * @author Jan, Valerij
  * @see GenericServiceImpl

@@ -12,7 +12,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * This is the Controller for the "Edit Customer View" of the Carrental Application.
+ * Controller zum Bearbeiten der Kunden
+ *
  *
  * @author Ahmad Anwar
  */

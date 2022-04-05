@@ -7,7 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 
 /**
- * Car object model (JPA entity).
+ * Objektmodell Auto (JPA entity).
  *
  * @author Ali Bahloul
  */

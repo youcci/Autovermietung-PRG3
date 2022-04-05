@@ -4,7 +4,7 @@ import org.turing.service.GenericService;
 import org.turing.util.i18n.I18nComponentsUtil;
 
 /**
- * This class is used to convert variables for
+ * Diese Klasse wird verwendet, um Variablen für
  * {@link GenericService#filter(String, String, String)}.
  *
  * @author Mohammad

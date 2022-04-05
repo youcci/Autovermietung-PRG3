@@ -7,7 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 
 /**
- * Employee object model (JPA entity).
+ * Objektmodell für Mitarbeiter (JPA entity).
  *
  * @author Mary
  */

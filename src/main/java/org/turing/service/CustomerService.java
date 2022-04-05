@@ -4,7 +4,7 @@ import org.turing.dao.GenericDaoImpl;
 import org.turing.model.Customer;
 
 /**
- * Service layer implementation for the {@link Customer} model.
+ * Implementierung des Services für das  {@link Customer} Modell.
  *
  * @author Jan, Valerij
  * @see GenericServiceImpl

@@ -10,7 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
 
 /**
- * Base entity containing a primary key.
+ * Basis-Entity, die einen Primärschlüssel enthält.
  *
  * @author Ali Bahloul
  */

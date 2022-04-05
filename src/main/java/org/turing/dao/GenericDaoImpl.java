@@ -7,9 +7,9 @@ import javax.persistence.EntityManagerFactory;
 import java.util.List;
 
 /**
- * {@link GenericDao} implementation.
+ * {@link GenericDao} Implementation.
  *
- * @param <T> the type of the entity
+ * @param <T> Typ der Entity
  * @author Mufadhal, Ruand
  */
 public class GenericDaoImpl<T> implements GenericDao<T> {
@@ -19,14 +19,14 @@ public class GenericDaoImpl<T> implements GenericDao<T> {
     private EntityManager em;
 
     /**
-     * Constructs a GenericDaoImpl object.
+     * Konstruiert ein GenericDaoImpl-Objekt.
      * <p>
-     * Requires you to pass the class type as a {@link Class} object
-     * so that we do not have to rely on reflection to determine {@link T} at runtime.
+     * Erfordert die Übergabe des Klassentyps als {@link Class} Objekt
+     * so dass wir uns nicht auf die Reflexion verlassen müssen, um festzustellen {@link T} während der Laufzeit.
      * <p>
-     * This ensures type safety and gets rid of unchecked casts.
+     * Dies gewährleistet Typensicherheit und verhindert ungeprüfte Übertragungen.
      *
-     * @param entityClass class object of type {@link T} (e.g. {@code Car.class})
+     * @param entityClass Klassenobjekt vom Typ {@link T} (d.h. {@code Car.class})
      */
     public GenericDaoImpl(Class<T> entityClass) {
         this.entityClass = entityClass;

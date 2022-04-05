@@ -19,7 +19,7 @@ import java.util.Optional;
 import java.util.ResourceBundle;
 
 /**
- * Controller for CustomerTableView.
+ * Controller zum Anzeigen der Kunden in einer Tabelle
  *
  * @author Youcef Wippert, Ahmad Anwar
  */

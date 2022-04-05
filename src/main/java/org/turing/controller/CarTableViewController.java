@@ -21,7 +21,7 @@ import java.util.Optional;
 import java.util.ResourceBundle;
 
 /**
- * This is the Controller for the Main View of the Carrental Application.
+ * Das ist der Hauptcontroller für unsere Anwendung
  *
  * @author Youcef Wippert
  */
@@ -150,7 +150,7 @@ public class CarTableViewController extends GenericTableViewController<Car> impl
     }
 
     /**
-     * Handle pressing the "Rent..." button.
+     * Funktion für Rent Button ;)
      */
     public void handleRentButtonClicked() {
         Car car = carTableView.getSelectionModel().getSelectedItem();

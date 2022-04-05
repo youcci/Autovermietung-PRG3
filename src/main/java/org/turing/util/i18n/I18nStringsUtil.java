@@ -3,9 +3,9 @@ package org.turing.util.i18n;
 import java.util.ResourceBundle;
 
 /**
- * Internationalization utility class for {@code strings.properties}.
+ * Internationalisierung Utility-Klasse für {@code strings.properties}.
  * <p>
- * Provides strings that are NOT visible to the end user.
+ * Liefert Zeichenfolgen, die für den Endbenutzer NICHT sichtbar sind.
  *
  * @author Youcef Wippert, Ahmad Anwar, Mufadhal, Ruand
  */

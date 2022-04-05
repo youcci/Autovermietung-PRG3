@@ -19,7 +19,7 @@ import lombok.Setter;
 import org.turing.model.*;
 
 /**
- * Super Controller for all other TableView controllers.
+ * Super Controller für alle anderen TableView Controller
  *
  * @author Youcef Wippert
  */
@@ -40,9 +40,9 @@ public abstract class GenericTableViewController<T extends BaseEntity> {
     public TextField searchTextField;
 
     /**
-     * Handles key presses within a TableView.
+     * Funktion für Tastaturbefehle in einer TableView
      *
-     * @param event the event that occurred also containing the button that was pressed
+     * @param event Das eingetretene Ereignis, das auch die gedrückte Taste enthält.
      */
     public void handleKeyEvent(KeyEvent event) {
         if (event.getCode() == KeyCode.DELETE) {
@@ -51,35 +51,35 @@ public abstract class GenericTableViewController<T extends BaseEntity> {
     }
 
     /**
-     * Switch the primary stage scene for {@link Car Car}.
+     * Schaltet Szene für {@link Car Car}.
      */
     public void handleCarMenuItemClicked() {
         app.showCarTableView();
     }
 
     /**
-     * Switch the primary stage scene for {@link Customer Customer}.
+     * Schaltet Szene für {@link Customer Customer}.
      */
     public void handleCustomerMenuItemClicked() {
         app.showCustomerTableView();
     }
 
     /**
-     * Switch the primary stage scene for {@link Employee Employee}.
+     * Schaltet Szene für {@link Employee Employee}.
      */
     public void handleEmployeeMenuItemClicked() {
         app.showEmployeeTableView();
     }
 
     /**
-     * Switch the primary stage scene for {@link Rental Rental}.
+     * Schaltet Szene für {@link Rental Rental}.
      */
     public void handleRentalMenuItemClicked() {
         app.showRentalTableView();
     }
 
     /**
-     * Closes the application.
+     * Schließt das Programm.
      *
      * @see App#stop()
      */
@@ -88,7 +88,7 @@ public abstract class GenericTableViewController<T extends BaseEntity> {
     }
 
     /**
-     * Displays a dialog containing information about this software project.
+     * Zeigt ein Dialogfeld mit Informationen zu diesem Softwareprojekt an.
      */
     public void handleAboutMenuItemClicked() {
         Alert aboutDialog = DialogUtil.createInformationDialog(I18nComponentsUtil.getDialogAboutText());
@@ -96,7 +96,7 @@ public abstract class GenericTableViewController<T extends BaseEntity> {
     }
 
     /**
-     * Applies the selected filters to the current entity list.
+     * Wendet ausgewählte Filter an
      */
     public void handleApplyCurrentFilterButtonClicked() {
         setSearchComboBoxAndTextFieldBordersIfEmpty();
@@ -111,7 +111,7 @@ public abstract class GenericTableViewController<T extends BaseEntity> {
     }
 
     /**
-     * Removes the selected filters of the current entity list.
+     * Entfernt ausgewählte Filter
      */
     public void handleRemoveCurrentFilterButtonClicked() {
         clearSearchComboBoxAndTextFieldBorders();
@@ -121,22 +121,23 @@ public abstract class GenericTableViewController<T extends BaseEntity> {
     }
 
     /**
-     * Handle pressing the "New..." button.
+     * Funktion für den "Neu..." Button
      */
     public abstract void handleNewButtonClicked();
 
     /**
-     * Handle pressing the "Edit..." button.
+     * Funktion für den "Bearbeiten..." Button
      */
     public abstract void handleEditButtonClicked();
 
     /**
-     * Handle pressing the "Delete..." button.
+     * Funktion für den "Löschen..." Button
      */
     public abstract void handleDeleteButtonClicked();
 
     /**
-     * Clears the top two search ComboBox and TextField values.
+     * Löscht die beiden obersten Werte der ComboBox und des TextFields für die Suche.
+     *
      */
     private void clearSearchComboBoxAndTextFieldValues() {
         searchComboBoxField.getSelectionModel().clearSelection();
@@ -145,7 +146,8 @@ public abstract class GenericTableViewController<T extends BaseEntity> {
     }
 
     /**
-     * Clears the top two search ComboBox and TextField borders.
+     * Löscht die oberen beiden Such-Combobox- und Textfeld-Ränder.
+     *
      */
     private void clearSearchComboBoxAndTextFieldBorders() {
         searchComboBoxField.setBorder(null);
@@ -154,7 +156,7 @@ public abstract class GenericTableViewController<T extends BaseEntity> {
     }
 
     /**
-     * Sets the top two search ComboBox and TextField borders if they are empty.
+     * Legt die oberen beiden Ränder der ComboBox und des TextFields fest, wenn sie leer sind.
      */
     private void setSearchComboBoxAndTextFieldBordersIfEmpty() {
         // Border radii taken from modena.css

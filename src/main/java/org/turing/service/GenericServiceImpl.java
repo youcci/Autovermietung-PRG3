@@ -7,12 +7,12 @@ import org.turing.util.FilterUtil;
 import java.util.List;
 
 /**
- * {@link GenericService} implementation.
+ * {@link GenericService} Implementation.
  * <p>
- * This class serves as a super class for all other implementations.
- * The only difference between the services is their DAO implementation.
+ * Diese Klasse dient als Superklasse für alle anderen Implementierungen.
+ * Der einzige Unterschied zwischen den Diensten ist ihre DAO-Implementierung.
  *
- * @param <T> the type of the entity
+ * @param <T> Typ der Entity
  * @author Mufadhal, Ruand
  */
 public class GenericServiceImpl<T extends BaseEntity> implements GenericService<T> {

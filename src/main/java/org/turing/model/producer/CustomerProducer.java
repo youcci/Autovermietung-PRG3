@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Produces some test data for the {@link Customer} model.
+ * Produziert bisschen Test Daten für das {@link Customer} Modell.
  *
  * @author Youcef Wippert
  */

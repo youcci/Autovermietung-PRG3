@@ -15,7 +15,7 @@ import lombok.Setter;
 import java.util.Optional;
 
 /**
- * Super Controller for all other EditView controllers.
+ * Super Controller für alle anderen EditView Controller
  *
  * @author Youcef Wippert
  */
@@ -30,9 +30,9 @@ public abstract class GenericEditViewController<T extends BaseEntity> {
     boolean applyClicked = false;
 
     /**
-     * Handles key presses within a EditView.
+     * Funktion für Tastaturbefehle in einer EditView
      *
-     * @param event the event that occurred also containing the button that was pressed
+     * @param event Das eingetretene Ereignis, das auch die gedrückte Taste enthält.
      */
     public void handleKeyEvent(KeyEvent event) {
         KeyCode key = event.getCode();
@@ -45,7 +45,7 @@ public abstract class GenericEditViewController<T extends BaseEntity> {
     }
 
     /**
-     * Handle pressing the "Cancel" button.
+     * Funktion vom Cancel Button
      */
     public void handleCancelButtonClicked() {
         Alert confirmationDialog =
@@ -58,21 +58,21 @@ public abstract class GenericEditViewController<T extends BaseEntity> {
     }
 
     /**
-     * Fills all the text fields with the given entity fields.
+     * Füllt alle Textfelder
      *
-     * @param entity given entity of type {@link T}
+     * @param entity gegebene Entität des Typs {@link T}
      */
     public abstract void initialize(T entity);
 
     /**
-     * Handle pressing the "Apply" button.
+     * Funktion für den Apply Button
      */
     public abstract void handleApplyButtonClicked();
 
     /**
-     * Checks if all the input fields contain valid data.
+     * Überprüft alle Eingabefelder nach richtigen Daten
      *
-     * @return true if all inputs are valid, else false
+     * @return true, wenn alle Eingaben gültig sind, sonst false
      */
     abstract boolean isInputValid();
 }

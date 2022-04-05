@@ -23,8 +23,8 @@ import java.io.IOException;
 import java.util.Locale;
 
 /**
- * Entry point of the car rental application. Definition of primary stage and
- * building of the environment.
+ * Einstiegspunkt der Autovermietungsanwendung. Definition der Primärstufe und
+ * Erstellung der der Umgebung.
  *
  * @author Youcef Wippert, Ahmad Anwar, Jan
  */
@@ -57,7 +57,7 @@ public class App extends Application {
     }
 
     /**
-     * Initializes the root BorderPane.
+     * Initialisiert das Root-BorderPane.
      */
     private void initializeRoot() {
         root = new BorderPane();
@@ -71,7 +71,7 @@ public class App extends Application {
     }
 
     /**
-     * Switches the view to the CarTableView.
+     * Schaltet die Ansicht auf die CarTableView um.
      */
     public void showCarTableView() {
         try {
@@ -91,10 +91,10 @@ public class App extends Application {
     }
 
     /**
-     * Opens the CarEditView dialog.
+     * Öffnet das Dialogfeld CarEditView.
      *
-     * @param car car that we want to edit
-     * @return true if the changes were applied successfully, else false
+     * @param car Auto, das wir bearbeiten wollen
+     * @return true, wenn die Änderungen erfolgreich angewendet wurden, sonst false
      */
     public boolean showCarEditView(Car car) {
         try {
@@ -131,7 +131,7 @@ public class App extends Application {
     }
 
     /**
-     * Switches the view to the CustomerTableView.
+     * Schaltet die Ansicht auf die CustomerTableView um.
      */
     public void showCustomerTableView() {
         try {
@@ -151,10 +151,10 @@ public class App extends Application {
     }
 
     /**
-     * Opens the CustomerEditView dialog.
+     * Öffnet das Dialogfeld CustomerEditView.
      *
-     * @param customer customer that we want to edit
-     * @return true if the changes were applied successfully, else false
+     * @param customer Kunde, den wir bearbeiten wollen
+     * @return true, wenn die Änderungen erfolgreich angewendet wurden, sonst false
      */
     public boolean showCustomerEditView(Customer customer) {
         try {
@@ -191,7 +191,7 @@ public class App extends Application {
     }
 
     /**
-     * Switches the view to the EmployeeTableView.
+     * Schaltet die Ansicht auf die EmployeeTableView um.
      */
     public void showEmployeeTableView() {
         try {
@@ -211,10 +211,10 @@ public class App extends Application {
     }
 
     /**
-     * Opens the EmployeeEditView dialog.
+     * Öffnet das Dialogfeld EmployeeEditView.
      *
-     * @param employee employee that we want to edit
-     * @return true if the changes were applied successfully, else false
+     * @param employee Mitarbeiter, den wir bearbeiten wollen
+     * @return true, wenn die Änderungen erfolgreich angewendet wurden, sonst false
      */
     public boolean showEmployeeEditView(Employee employee) {
         try {
@@ -251,7 +251,7 @@ public class App extends Application {
     }
 
     /**
-     * Switches the view to the RentalTableView.
+     * Schaltet die Ansicht auf die RentalTableView um.
      */
     public void showRentalTableView() {
         try {
@@ -271,10 +271,10 @@ public class App extends Application {
     }
 
     /**
-     * Opens the RentalEditView dialog.
+     * Öffnet das Dialogfeld RentalEditView.
      *
-     * @param rental rental that we want to edit
-     * @return true if the changes were applied successfully, else false
+     * @param rental Miete, die wir bearbeiten wollen
+     * @return true, wenn die Änderungen erfolgreich angewendet wurden, sonst false
      */
     public boolean showRentalEditView(Rental rental) {
         try {

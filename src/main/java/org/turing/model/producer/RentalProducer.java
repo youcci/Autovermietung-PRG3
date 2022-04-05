@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Produces some test data for the {@link Rental} model.
+ * Produziert bisschen Test Daten für das {@link Rental} Modell.
  *
  * @author Youcef Wippert
  */

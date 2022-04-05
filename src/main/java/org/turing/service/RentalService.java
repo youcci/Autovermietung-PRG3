@@ -4,7 +4,7 @@ import org.turing.dao.GenericDaoImpl;
 import org.turing.model.Rental;
 
 /**
- * Service layer implementation for the {@link Rental} model.
+ * Implementierung des Services für das {@link Rental} Model.
  *
  * @author Mufadhal, Ruand
  * @see GenericServiceImpl

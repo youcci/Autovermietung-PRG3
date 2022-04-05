@@ -13,9 +13,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * This is the Controller for the "Edit Car View" of the Carrental Application.
+ * Controller zum Bearbeiten der Autos
  *
- * @author Jens Thewes
+ * @author Ahmad Anwar
  */
 public class CarEditViewController extends GenericEditViewController<Car> {
     @FXML

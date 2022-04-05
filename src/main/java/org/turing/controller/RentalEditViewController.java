@@ -23,7 +23,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 /**
- * This is the Controller for the "Rental Edit View" of the Carrental Application.
+ * Controller für die Bearbeitung der Autovermietung
  *
  * @author Youcef Wippert, Ahmad Anwar
  */
@@ -140,7 +140,7 @@ public class RentalEditViewController extends GenericEditViewController<Rental> 
     }
 
     /**
-     * Handle pressing the "Confirm" button.
+     * Funktion für den Confirm Button
      */
     public void handleConfirmButtonClicked() {
         setDatePickerBorderIfIsEmpty();
@@ -169,7 +169,7 @@ public class RentalEditViewController extends GenericEditViewController<Rental> 
     }
 
     /**
-     * Handle pressing the "Search" button.
+     * Funktion für den "Suchen" Button
      */
     public void handleSearchButtonClicked() {
         String driverLicenseId = driverLicenseIdTextField.getText();

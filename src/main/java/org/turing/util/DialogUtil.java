@@ -5,7 +5,7 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
 
 /**
- * This class is used to create standard dialogs via static access methods.
+ * Diese Klasse dient der Erstellung von Standarddialogen über statische Zugriffsmethoden.
  *
  * @author Mohammad
  */
@@ -14,10 +14,10 @@ public final class DialogUtil {
     }
 
     /**
-     * Creates an informational dialog that can be displayed to the user.
+     * Den Text, der im Informationsdialog angezeigt werden soll
      *
-     * @param headerText the text that will be displayed in the information dialog
-     * @return an Alert object that represents the dialog that can be displayed
+     * @param headerText Den Text, der im Informationsdialog angezeigt werden soll
+     * @return Ein Alert-Objekt, das den Dialog darstellt, der angezeigt werden kann
      */
     public static Alert createInformationDialog(String headerText) {
         Alert informationDialog = new Alert(AlertType.INFORMATION);
@@ -29,10 +29,10 @@ public final class DialogUtil {
     }
 
     /**
-     * Creates an confirmation dialog that can be displayed to the user.
+     * Erzeugt einen Bestätigungsdialog, der dem Benutzer angezeigt werden kann.
      *
-     * @param headerText the text that will be displayed in the confirmation dialog
-     * @return an Alert object that represents the dialog that can be displayed
+     * @param headerText Der Text, der im Bestätigungsdialog angezeigt werden soll
+     * @return Ein Alert-Objekt, das den Dialog darstellt, der angezeigt werden kann
      */
     public static Alert createConfirmationDialog(String headerText) {
         Alert confirmationDialog = new Alert(AlertType.CONFIRMATION);
@@ -44,12 +44,12 @@ public final class DialogUtil {
     }
 
     /**
-     * Creates an error dialog that can be displayed to the user.
+     * Erzeugt einen Fehlerdialog, der dem Benutzer angezeigt werden kann.
      *
-     * @param title        the title that will be displayed in the error dialog
-     * @param headerText   the header text that will be displayed in the error dialog
-     * @param errorMessage the error message that will be displayed in the error dialog
-     * @return an Alert object that represents the dialog that can be displayed
+     * @param title        Der Titel, der im Fehlerdialog angezeigt werden soll
+     * @param headerText   Der Kopfzeilentext, der im Fehlerdialog angezeigt werden soll
+     * @param errorMessage Die Fehlermeldung, die im Fehlerdialog angezeigt wird
+     * @return Ein Alert-Objekt, das den Dialog darstellt, der angezeigt werden kann
      */
     public static Alert createErrorDialog(String title, String headerText, String errorMessage) {
         Alert errorDialog = new Alert(AlertType.ERROR);

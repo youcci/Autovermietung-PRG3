@@ -18,7 +18,7 @@ import java.util.Optional;
 import java.util.ResourceBundle;
 
 /**
- * Controller for RentalTableView.
+ * Controller für die Tabelle der Autovermietungen.
  *
  * @author Youcef Wippert, Ahmad Anwar
  */
@@ -63,7 +63,7 @@ public class RentalTableViewController extends GenericTableViewController<Rental
     }
 
     /**
-     * Rental view does not use a "New..." button.
+     * Tabelle benutzt keinen "Neu..." Button
      *
      * @see CarTableViewController#handleRentButtonClicked()
      */

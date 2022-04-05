@@ -5,7 +5,7 @@ import lombok.Getter;
 import java.util.ResourceBundle;
 
 /**
- * Internationalization utility class providing different resource bundles.
+ * Internationalisierungsdienstleistungsklasse, die verschiedene Ressourcenbündel bereitstellt.
  *
  * @author Youcef Wippert
  */

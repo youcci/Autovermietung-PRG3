@@ -5,53 +5,53 @@ import org.turing.dao.GenericDao;
 import java.util.List;
 
 /**
- * Interface for the Service layer.
+ * Schnittstelle für die Serviceschicht.
  * <p>
- * Besides using methods from the DAO layer, the Service layer also manages entity managers and transactions.
+ * Neben der Verwendung von Methoden aus der DAO-Schicht verwaltet die Serviceschicht auch Entity Manager und Transaktionen.
  *
- * @param <T> the type of the entity
+ * @param <T> Typ der Entity
  * @author Mufadhal, Ruand
  * @see GenericDao
  */
 public interface GenericService<T> {
     /**
-     * Persists a given entity.
+     * Hält eine gegebene Entity.
      *
-     * @param entity entity instance
+     * @param entity Entity Instanz
      * @see GenericDao#persist(Object)
      */
     void persist(T entity);
 
     /**
-     * Finds a single entity by its ID.
+     * Findet eine Entity anhand ihrer ID
      *
-     * @param id primary key
-     * @return the found entity instance or null if the entity does not exist
+     * @param id primärer Key
+     * @return die gefundene Entity-Instanz oder null, wenn die Entity nicht existiert
      * @see GenericDao#findById(Long)
      */
     T findById(Long id);
 
     /**
-     * Finds all entities.
+     * Findet alle Entitäten
      *
-     * @return a list of found entity instances or a empty list if no entities exist
+     * @return eine Liste der gefundenen Entity-Instanzen oder eine leere Liste, wenn keine Entity existieren
      * @see GenericDao#findAll()
      */
     List<T> findAll();
 
     /**
-     * Finds all entities that match a filter.
+     * Findet alle Entities die dem Filter entsprechen
      *
-     * @param field      entity field
-     * @param comparator comparator, e.g. {@code >} or {@code <}
-     * @param value      value to filter for
-     * @return a list of found entity instances or a empty list if no entities match the filter
+     * @param field      Entity Feld
+     * @param comparator vergleicher, d.h. {@code >} oder {@code <}
+     * @param value      Wert zum filtern
+     * @return eine Liste der gefundenen Entity-Instanzen oder eine leere Liste, wenn keine Entities dem Filter entsprechen
      * @see GenericDao#filter(String, String, String)
      */
     List<T> filter(String field, String comparator, String value);
 
     /**
-     * Updates a given entity.
+     * Aktualisiert eine bestimmte Entity
      *
      * @param entity entity instance
      * @see GenericDao#update(Object)
@@ -59,7 +59,7 @@ public interface GenericService<T> {
     void update(T entity);
 
     /**
-     * Deletes a given entity.
+     * Löscht eine bestimmte Entity
      *
      * @param entity entity instance
      * @see GenericDao#delete(Object)
@@ -67,7 +67,7 @@ public interface GenericService<T> {
     void delete(T entity);
 
     /**
-     * Deletes a single entity by its ID.
+     * Löscht eine bestimmte Entity anhand ihrer ID
      *
      * @param id primary key
      * @see GenericService#delete(Object)
@@ -75,7 +75,7 @@ public interface GenericService<T> {
     void deleteById(Long id);
 
     /**
-     * Deletes all entities.
+     * Löscht alle Entities.
      *
      * @see GenericDao#deleteAll()
      */

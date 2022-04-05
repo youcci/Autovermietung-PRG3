@@ -7,7 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 
 /**
- * Customer object model (JPA entity).
+ * Kundenobjektmodell (JPA entity).
  *
  * @author Desiree
  */

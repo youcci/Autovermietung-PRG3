@@ -19,7 +19,7 @@ import java.util.Optional;
 import java.util.ResourceBundle;
 
 /**
- * Controller for EmployeeTableView.
+ * Controller um Mitarbeiter in einer Tabelle anzuzeigen
  *
  * @author Ahmad Anwar
  */
